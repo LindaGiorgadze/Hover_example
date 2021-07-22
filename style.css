@@ -1,0 +1,38 @@
+nav{
+    padding: 1%;
+    background-color: antiquewhite;
+}
+ul {
+    padding: 10px;
+    background-color: beige;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+li{
+    padding: 1%;
+    list-style: none;
+    background-color: white;
+}
+
+.parentUl{
+    position: relative;
+    height: 100%;
+}
+
+.hover:hover .hoverChild{
+    display: block;
+}
+
+.hover {
+    width: 17%;
+}
+.hoverChild{
+    background-color: black;
+    display: none;
+    position: absolute;
+    width: 80%;
+    height: 100%;
+    top: 0;
+    right: 0;
+}
